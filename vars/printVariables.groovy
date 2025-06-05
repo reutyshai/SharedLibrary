@@ -3,5 +3,6 @@ def printParams(){
 }
 
 def printEnv(){
-    echo "env: ${env}"
+    echo "env: ${env.COMBINED}"
+    echo "env: ${env.STATIC}"
 }
